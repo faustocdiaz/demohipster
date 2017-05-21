@@ -1,0 +1,131 @@
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="side-menu-container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <div class="icon"><img src="https://jhipster.github.io/images/logo/logo-jhipster2x.png" height="50px"></div>
+                    <div class="title brand">JHipster </div>
+                </a>
+                <button type="button" class="navbar-expand-toggle pull-right visible-xs">
+                    <i class="fa fa-times icon"></i>
+                </button>
+            </div>
+            <ul class="nav navbar-nav">
+                <li  ui-sref-active="active">
+                    <a href="/">
+                        <span class="icon fa fa-home"></span><span class="title">Home</span>
+                    </a>
+                </li>
+                <li ui-sref-active="active">
+                    <a ui-sref="jhi-health">
+                        <span class="icon fa fa-file-text-o"></span><span class="title">Release notes</span>
+                    </a>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-1">
+                        <span class="icon fa fa-road"></span><span class="title">JHipster in a few minutes</span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ui-sref-active="active"><a   ui-sref="jhi-configuration"><i class="fa fa-fw fa-stack-overflow"></i> Technology stack</a></li>
+                                <li ><a href="/presentation" target="_blank"><i class="fa fa-fw fa-desktop"></i> Official JHipster slides</a></li>
+                                <li ><a href="https://jhipster.github.io/screenshots/"><i class="fa fa-fw fa-picture-o"></i> JHipster in 5 screenshots</a></li>
+                                <li ><a href="https://jhipster.github.io/video-tutorial/"><i class="fa fa-fw fa-film"></i> Video tutorial (12 minutes)</a></li>
+                                <li ><a href="https://jhipster.github.io/companies-using-jhipster/"><i class="fa fa-fw fa-thumbs-up"></i> Companies using JHipster</a></li>
+                                <li ><a href="https://jhipster.github.io/showcase/"><i class="fa fa-fw fa-file-image-o"></i> Showcase of JHipster apps</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-2">
+                        <span class="icon fa fa-fw fa-wrench"></span><span class="title">Setting up your environment</span>
+                    </a>
+                    <!-- Dropdown level 1 -->
+                    <div id="dropdown-2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="https://jhipster.github.io/installation/"><i class="fa fa-fw fa-cloud-download"></i> Installing JHipster</a></li>
+                                <li ><a href="https://jhipster.github.io/configuring-a-corporate-proxy/"><i class="fa fa-fw fa-exchange"></i> Configuring a proxy</a></li>
+                                <li ><a href="https://jhipster.github.io/jhipster-app/"><i class="fa fa-fw fa-laptop"></i> JHipster App</a></li>
+                                <li ><a href="https://jhipster.github.io/configuring-ide/"><i class="fa fa-fw fa-keyboard-o"></i> Configuring your IDE</a></li>
+                                <li ><a href="https://jhipster.github.io/docker-compose/"><i class="fa fa-fw fa-music"></i> Docker Compose</a></li>
+                                <li ><a href="https://jhipster.github.io/shell-plugins/"><i class="fa fa-fw fa-terminal"></i> Shell Plugins</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-3"><span class="icon fa fa-fw fa-list-ol"></span><span class="title">Core JHipster tasks</span></a>
+                    <div id="dropdown-3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="https://jhipster.github.io/creating-an-app/"><i class="fa fa-fw fa-rocket"></i> Creating an application</a></li>
+                                <li ><a href="https://jhipster.github.io/creating-an-entity/"><i class="fa fa-fw fa-bolt"></i> Creating an entity</a></li>
+                                <li ><a href="https://jhipster.github.io/creating-a-service/"><i class="fa fa-fw fa-bolt"></i> Creating a service</a></li>
+                                <li ><a href="https://jhipster.github.io/using-dtos/"><i class="fa fa-fw fa-briefcase"></i> Creating DTOs</a></li>
+                                <li ><a href="https://jhipster.github.io/managing-relationships/"><i class="fa fa-fw fa-sitemap"></i> Managing relationships</a></li>
+                                <li ><a href="https://jhipster.github.io/installing-new-languages/"><i class="fa fa-fw fa-flag"></i> Internationalization</a></li>
+                                <li ><a href="https://jhipster.github.io/upgrading-an-application/"><i class="fa fa-fw fa-refresh"></i> Upgrading an application</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-4"><span class="icon fa fa-fw fa-sitemap"></span><span class="title">Microservices</span></a>
+                    <div id="dropdown-4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="https://jhipster.github.io/microservices-architecture/"><i class="fa fa-fw fa-map-signs"></i> Overview</a></li>
+                                <li ><a href="https://jhipster.github.io/api-gateway/"><i class="fa fa-fw fa-exchange"></i> API Gateway</a></li>
+                                <li ><a href="https://jhipster.github.io/jhipster-registry/"><i class="fa fa-fw  fa-dashboard"></i> JHipster Registry</a></li>
+                                <li ><a href="https://jhipster.github.io/consul/"><i class="fa fa-fw fa-bullseye"></i> Consul</a></li>
+                                <li ><a href="https://jhipster.github.io/creating-microservices/"><i class="fa fa-fw fa-bolt"></i> Creating microservices</a></li>
+                                <li ><a href="https://jhipster.github.io/microservices-in-production/"><i class="fa fa-fw fa-cloud"></i> Microservices in production</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-5"><span class="icon fa fa-fw fa-puzzle-piece"></span><span class="title">Options</span></a>
+                    <div id="dropdown-5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="https://jhipster.github.io/security/"><i class="fa fa-fw fa-lock"></i> Securing your app</a></li>
+                                <li ><a href="https://jhipster.github.io/using-elasticsearch/"><i class="fa fa-fw fa-search"></i> Using Elasticsearch</a></li>
+                                <li ><a href="https://jhipster.github.io/using-websockets/"><i class="fa fa-fw fa-envelope"></i> Using Websockets</a></li>
+                                <li ><a href="https://jhipster.github.io/using-cache/"><i class="fa fa-fw fa-line-chart"></i> Using a cache</a></li>
+                                <li ><a href="https://jhipster.github.io/using-oracle/"><i class="fa fa-fw fa-archive"></i> Using Oracle</a></li>
+                                <li ><a href="https://jhipster.github.io/using-mongodb/"><i class="fa fa-fw fa-leaf"></i> Using MongoDB</a></li>
+                                <li ><a href="https://jhipster.github.io/using-cassandra/"><i class="fa fa-fw fa-eye"></i> Using Cassandra</a></li>
+                                <li ><a href="https://jhipster.github.io/using-kafka/"><i class="fa fa-fw fa-envelope"></i> Using Kafka</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="panel panel-default dropdown">
+                    <a data-toggle="collapse" href="#dropdown-6"><span class="icon fa fa-fw fa-code"></span><span class="title">Development</span></a>
+                    <div id="dropdown-6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="https://jhipster.github.io/development/"><i class="fa fa-fw fa-code"></i> Using in development</a></li>
+                                <li ><a href="https://jhipster.github.io/profiles/"><i class="fa fa-fw fa-group"></i> Managing profiles</a></li>
+                                <li ><a href="https://jhipster.github.io/common-application-properties/"><i class="fa fa-fw fa-flask"></i> Common application properties</a></li>
+                                <li ><a href="https://jhipster.github.io/using-angularjs/"><i class="fa fa-fw fa-html5"></i> Using AngularJS</a></li>
+                                <li ><a href="https://jhipster.github.io/using-angular/"><i class="fa fa-fw fa-html5"></i> Using Angular</a></li>
+                                <li ><a href="https://jhipster.github.io/customizing-bootstrap-3/"><i class="fa fa-fw fa-css3"></i> Customizing Bootstrap 3</a></li>
+                                <li ><a href="https://jhipster.github.io/customizing-bootstrap-4/"><i class="fa fa-fw fa-css3"></i> Customizing Bootstrap 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+
